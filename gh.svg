@@ -4,6 +4,6 @@
           id="foo"/>
 
   <foreignObject width="500" height="500">
-    <iframe xmlns="http://www.w3.org/1999/xhtml" src="http://169.254.169.254/latest/meta-data/hostname"/>
+    <iframe xmlns="http://www.w3.org/1999/xhtml" src="http://169.254.169.254/latest/meta-data/"/>
   </foreignObject>
 </svg>
